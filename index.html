@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generate using Javascript</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="generator">
+            <h1>Password Generate By Dipak Kumal</h1>
+
+            <label for="" class="password-wrap">
+                <input type="text" id="password" readonly placeholder="Generate a password" />
+                <button class="material-icons" id="copy">content copy</button>
+            </label>
+
+            <label for="">
+                <span>Password Length</span>
+                <input type="number" id="length" value="16">
+            </label>
+
+            <label for="">
+                <span>Include Uppercase Letters: </span>
+                <input type="checkbox" id="uppercase" checked>
+            </label>
+            <label for="">
+                <span>Include Lowercase Letters: </span>
+                <input type="checkbox" id="lowercase" checked>
+            </label>
+            <label for="">
+                <span>Include Number: </span>
+                <input type="checkbox" id="number" checked>
+            </label>
+            <label for="">
+                <span>Include Symbol: </span>
+                <input type="checkbox" id="symbol" checked>
+            </label>
+            <button type="submit" id="generate">Generate Password</button>
+        </div>
+    </main>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
